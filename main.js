@@ -19,6 +19,12 @@ new Vue({
     },
     addMomunaXatun:function(){
       this.momunaxatun++;
+    },
+    clear:function(){
+      this.nizami=0;
+      this.mammad=0;
+      this.shirvan=0;
+      this.momunaxatun=0;
     }
   },
   computed:{
